@@ -36,7 +36,7 @@ rules=  [   {
             {
                 'url':kisssub_urls,
                 'select':'table#listTable tr td:eq(2) a',
-                'pattern':r'.*澄空学园.*CHAOS.*CHILD.*第.*话',
+                'pattern':r'.*澄空学园.*CHAOS.*CHILD.*第.*话.*MP4',
                 'target':{
                             'select':'a#magnet',
                             'target':'/home/helscn/视频/ChaosChild/'
@@ -72,7 +72,7 @@ rules=  [   {
             {
                 'url':kisssub_urls,
                 'select':'table#listTable tr td:eq(2) a',
-                'pattern':r'.*極影字幕社.*幼女戰記\s+\d+',
+                'pattern':r'.*極影字幕社.*幼女戰記\s+\d+.*MP4',
                 'target':{
                             'select':'a#magnet',
                             'target':'/home/helscn/视频/幼女战记'
@@ -81,7 +81,7 @@ rules=  [   {
             {
                 'url':kisssub_urls,
                 'select':'table#listTable tr td:eq(2) a',
-                'pattern':r'.*澄空学园.*亚人酱有话要说.*第\d+话',
+                'pattern':r'.*澄空学园.*亚人酱有话要说.*第\d+话.*MP4',
                 'target':{
                             'select':'a#magnet',
                             'target':'/home/helscn/视频/亚人酱有话说'
